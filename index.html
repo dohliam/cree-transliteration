@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Canadian Aboriginal Syllabics transliteration - Converter for Cree text</title>
+    <style type="text/css">
+      p {
+        width: 30em;
+      }
+      footer {
+        width: 30em;
+      }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" type="text/css" href="https://dohliam.github.io/dropin-minimal-css/vendor/skeleton-framework.min.css"/>
+    <meta name="viewport" content="width=device-width">
+    <script src="js/transliterate.js" type="text/javascript"></script>
+    <script src="js/cas_sro-table.js" type="text/javascript"></script>
+    <script src="js/sro_cas-table.js" type="text/javascript"></script>
+  </head>
+  <body onload="window.textbox.focus()">
+    <h2>Canadian Aboriginal Syllabics (Cree) transliteration</h2>
+    <p>This converter transliterates to and from Canadian Aboriginal Syllabics (Cree) and Standard Roman Orthography (SRO). To use, simply enter some text in Canadian Aboriginal Syllabics or SRO into the <strong>Input</strong> box, optionally select the input orthography from the dropdown menu, and press the <strong>Convert</strong> button. The transliterated text will appear in the <strong>Output</strong> box below.</p>
+
+    <select name="orthography" id="orthography" accesskey='o'>
+      <option value="cas_sro">Canadian Aboriginal Syllabics</option>
+      <option value="sro_cas">Standard Roman Orthography</option>
+    </select>
+
+    <br><textarea id=textbox cols="50" rows="10" placeholder="Input"></textarea>
+    <br><button type="button" onclick="convert_button()">Convert</button>
+    <br>
+    <textarea id=output readonly="true" cols="50" rows="10" placeholder="Output"></textarea>
+
+    <footer><strong>View this project on <a href="https://github.com/dohliam/cree-transliteration">Github</a> · More information about <a href="https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics">Canadian Aboriginal Syllabics</a></strong></footer>
+  </body>
+</html>
