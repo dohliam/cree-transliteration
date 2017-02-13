@@ -24,11 +24,11 @@ Screenshot:
 
 ![image](https://cloud.githubusercontent.com/assets/9295750/22109276/eb5733da-de0b-11e6-83ec-474daa6f47e7.png)
 
+## Credits
+
+* sample text from Little Cree Books provided by the [lcb-source](https://github.com/global-asp/lcb-source) project
+* [skeleton-framework CSS](https://github.com/skeleton-framework/skeleton-framework)
+
 ## LICENSE
 
 MIT.
-
-Uses:
-
-* [skeleton-framework CSS](https://github.com/skeleton-framework/skeleton-framework)
-* sample text from Little Cree Books provided by the [lcb-source](https://github.com/global-asp/lcb-source) project
